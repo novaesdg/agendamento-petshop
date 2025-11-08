@@ -1,0 +1,16 @@
+header { 
+  background-color: var(--bg-secondary);
+  padding: .75rem 1.25rem;
+  width: 9.56rem;
+  border-bottom-right-radius: .5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .25rem;
+
+  & h2 {
+    font: bold 1rem "Familjen Grotesk", sans-serif;
+    color: var(--content-brand);
+  }
+}
